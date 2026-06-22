@@ -266,9 +266,17 @@ section{
   padding-top: 20px;
 }
 .concept-body p{
-  font-size: 15px;
-  line-height: 2.0;
+  font-size: 16px;
+  line-height: 2.1;
   color: var(--ink-2);
+}
+.concept-body .concept-lead{
+  font-family: var(--serif);
+  font-size: clamp(22px, 2.4vw, 28px);
+  line-height: 1.7;
+  color: var(--ink);
+  letter-spacing: .04em;
+  margin-bottom: 10px;
 }
 .concept-marquee{
   margin-top: 100px;
