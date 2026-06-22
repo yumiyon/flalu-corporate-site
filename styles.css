@@ -280,6 +280,17 @@ section{
   line-height: 2.05;
   color: var(--ink-2);
 }
+.concept-quote{
+  margin-top: 36px;
+  padding: 28px 0 4px 28px;
+  border-left: 1px solid var(--accent);
+  font-family: var(--serif);
+  font-size: clamp(17px, 1.6vw, 20px);
+  font-weight: 400;
+  line-height: 2.1;
+  letter-spacing: .06em;
+  color: var(--ink);
+}
 .concept-marquee{
   margin-top: 100px;
   overflow: hidden;
