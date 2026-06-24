@@ -269,27 +269,47 @@ section{
 .cv-wide{
   aspect-ratio: 4 / 5;
 }
-.concept-body{
+.concept-vision{
   display: flex;
   flex-direction: column;
-  gap: 22px;
-  padding-top: 20px;
+  gap: clamp(28px, 3.5vw, 44px);
+  padding-top: 10px;
 }
-.concept-body p{
-  font-size: 15px;
-  line-height: 2.05;
-  color: var(--ink-2);
-}
-.concept-quote{
-  margin-top: 36px;
-  padding: 28px 0 4px 28px;
-  border-left: 1px solid var(--accent);
+.concept-vision p{
   font-family: var(--serif);
-  font-size: clamp(17px, 1.6vw, 20px);
   font-weight: 400;
-  line-height: 2.1;
-  letter-spacing: .06em;
+  line-height: 2;
+  letter-spacing: .08em;
   color: var(--ink);
+  margin: 0;
+}
+.vision-call{
+  font-size: clamp(22px, 2.6vw, 32px);
+  line-height: 1.7;
+  letter-spacing: .1em;
+  color: var(--ink);
+}
+.vision-bridge{
+  position: relative;
+  font-size: clamp(16px, 1.55vw, 19px);
+  letter-spacing: .14em;
+  color: var(--accent-dk);
+  padding-left: 52px;
+}
+.vision-bridge::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .9em;
+  width: 36px;
+  height: 1px;
+  background: var(--accent);
+}
+.vision-manifesto{
+  font-size: clamp(15px, 1.4vw, 18px);
+  line-height: 2.1;
+  letter-spacing: .1em;
+  color: var(--ink-2);
 }
 .concept-marquee{
   margin-top: 100px;
