@@ -788,6 +788,16 @@ section{
   line-height: 2;
   color: var(--ink);
 }
+.company-link{
+  color: var(--accent-dk);
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 2px;
+  transition: color .3s var(--ease), border-color .3s var(--ease);
+}
+.company-link:hover{
+  color: var(--ink);
+  border-color: var(--ink);
+}
 
 /* ===== Footer ===== */
 .site-footer{
